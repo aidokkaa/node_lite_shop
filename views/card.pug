@@ -1,0 +1,12 @@
+div(class='card')
+  a(class = 'card-a' href="/goods?id="+val['id'])
+   p(class='p-text') #{val['name']}
+   img(
+     src='img/'+val['image']
+     class='card-images'
+     )
+   p(class='text-center') #{val['cost'].toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$& ')} тг
+  button(
+      data-goods_id = val['id']
+      class='button button-primary add-to-cart'
+          ) В корзину

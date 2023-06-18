@@ -1,0 +1,62 @@
+include header
+div(class='wrap')
+  div(class='content')
+    header(class='site-header')
+      include site_header
+
+    div(class='container')
+      div(class='row')
+        div(class='col col-md-12')
+          h2(class="cart-header") Корзина
+          div(class='card-nav')
+        div(class='col col-md-12')
+             
+      
+        div(class='col col-md-6')
+          form#lite-shop-order(action="")
+                  div(class='form-control')
+                    label(for='username') Имя
+                    input(
+                        type='text',
+                        id='username',
+                        placeholder='Введите имя',
+                        )
+                  div(class='form-control')
+                    label(for='phone') Ваш телефон
+                    input(
+                        type='text',
+                        id='phone',
+                        placeholder='+7 (702) ___ __ __',
+                        )
+                  div(class='form-control')
+                    label(for='email') Email
+                    input(
+                        type='text',
+                        id='email',
+                        placeholder='mail@example.com',
+                        )
+                  div(class='form-control')
+                    label(for='address') Ваш адрес
+                    textarea(
+                        id='address',
+                        placeholder='Где вы',
+                        )
+                  div(class='form-control2')
+                    label(for='rule') 
+                      input(
+                          type='checkbox',
+                          id='rule',
+                          value='1'
+                          ) 
+                      span  Принимаю условия
+                  div(class='form-control text-right')
+                    button(class='button-primary', type='submit') Оформить заказ
+    //include nav.pug
+
+  script(src='js/cart.js') 
+script(src='js/order.js') 
+script(src='js/nav.js') 
+script(src='https://cdn.jsdelivr.net/npm/sweetalert2@11')
+<script src="https://kit.fontawesome.com/d1933663c1.js" crossorigin="anonymous"></script>
+  script(src='js/order.js')
+

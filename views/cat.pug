@@ -1,0 +1,21 @@
+div(class='wrap')
+  div(class='content')
+    header(class='site-header')
+      include site_header
+  
+
+    div(class='container1')
+     h1 #{cat['category']}
+       div(class='cont-card')
+        each val, index in goods
+          include card.pug
+                  
+
+
+
+     div(class='descr') #{cat[0]['description']}
+include nav
+
+
+
+  

@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding: 20px 0;
+    background-color:  yellow;
+    color: green;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.show-nav{
+  display: flex;
+  position: relative;
+  right: 60px;
+}
+.col-lg-12 h2{
+    margin-top: 34px;
+}
+.card{
+    width: 300px;
+    min-height: 360px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    padding: 15px;
+}
+.cart-header{
+    margin-bottom: 20px;
+}
+.card p{
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.category-list{
+    margin-top: 20px;
+}
+.category-list li{
+    margin-top: 10px;
+}
+.cart-header {
+    margin-top: 30px;
+}
+.card-images{
+    margin: 0 auto;
+    display: block;
+}
+.text-center{
+    text-align: center;
+    margin-top: 20px;
+}
+.button{
+    background-color: green;
+    width: 100px;
+    padding: 7px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+    color: white;
+    font-weight: bold;
+}
+.goods-title{
+    margin-top: 30px;
+}
+.descr{
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.button-primary{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 120px;
+    padding: 10px;
+}
+.add-to-cart{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 120px;
+    padding: 10px; 
+}
+.cont-card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+   margin-top: 100px;
+}
+.card-a{
+    color: black;
+    margin-top: 10px;
+}
+.card{
+    margin-top: 20px;
+}
+.card-a p{
+    font-size: 18px;
+}
+
+.goods-flex{
+    display: flex;
+    margin-left: 300px;
+    justify-content: space-around;
+    margin-top: 60px;
+    width: 50%;
+}
+.goods-description{
+   margin-top: 60px;
+   width: 590px;
+}
+.goods-cost{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+.goods-title{
+    margin-left: 300px;
+    width: 600px;
+    margin-top: 90px;
+}
+.col-lg-12 a{
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+    cursor: pointer;
+    width: 150px;
+    padding: 7px;
+    background-color: green;
+    border-radius: 2px;
+    border: 1px solid white;
+}
+.to-cart{
+    width: 130px;
+    padding: 10px;
+    background-color: green;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.site-nav{
+    width: 300px;
+    background-color: green;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding: 10px;
+    transition: all ease 1s;
+    color: #fff;
+    left: 0;
+}
+.button-close-nav{
+    border: 1px solid white;
+    width: 150px;
+    font-weight: bold;
+    font-size: 14px;
+    height: 50px;
+    background-color: green;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.button-close{
+    border: 1px solid white;
+    cursor: pointer;
+    width: 50px;
+    border-radius: 4px;
+    height: 30px;
+    font-size: 20px;
+    background-color: green;
+    font-weight: bold;
+}
+#category-list{
+    width: 100px;
+    height: 100px;
+}
+.descr-cost{
+    width: 30%;
+}
+.close-button{
+    text-align: right;
+}
+.row{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    margin-top: 80px;
+    flex-wrap: wrap;
+    margin-left: 360px;
+    gap: 40px;
+}
+.site-nav a{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.card-nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer{
+    margin-top: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: yellow;
+}
+.footer-text{
+    text-align: center;
+    margin-top: 5px;
+}
+.footer{
+    width: 100%;
+    padding: 5px;
+    background-color: yellow;
+    margin-top: 30px; 
+}
+.footer p{
+    text-align: center;
+    margin-top: 5px;
+}
+.table-cart {
+   border-radius: 6px;
+    padding: 20px;
+    border: 1px solid gray;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+.card-nav a{
+    color: black;
+    text-decoration: none;
+}
+.col{
+    margin-top: 50px;
+}
+.col-md-12{
+    font-size: 20px;
+}
+.form-control input{
+    margin-top: 30px;
+    margin-left: 20px;
+width: 300px;
+height: 50px;
+padding-left: 10px;
+border: 1px solid gray;
+border-radius: 4px;
+}
+.form-control label{
+    font-weight: bold;
+}
+.form-control2{
+    margin: 25px 0;
+}
+#address{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.descr{
+    width: 70%;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin: 40px auto;
+}
+.lite{
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+    font-size: 24px;
+    margin-left: 10px;
+}
+#lite-shop-order{
+    padding: 20px;
+}

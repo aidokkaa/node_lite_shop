@@ -1,0 +1,19 @@
+include header
+include site_header.pug
+h1 Ноутбуки
+div(class='container')
+ each val, index in goods
+  div(class='card')
+   h5(class='title') #{val['name']}
+   img( class='img'
+    src='img/' + val['image']
+      )
+   h3(class='cost') #{val['cost']}tg
+   a(class='button' href="") В корзину
+   include nav 
+   script(src="js/nav.js") 
+ 
+
+
+
+
